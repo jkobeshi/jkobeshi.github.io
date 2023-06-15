@@ -1,1 +1,0 @@
-# jkobeshi.github.io
