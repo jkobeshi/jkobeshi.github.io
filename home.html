@@ -1,106 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Your Name - Portfolio</title>
-  <style>
-    * {
-      box-sizing: border-box;
-    }
-
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-    }
-
-    header {
-      background-color: #333;
-      color: #fff;
-      padding: 20px;
-      text-align: center;
-    }
-
-    h1 {
-      margin: 0;
-    }
-
-    nav ul {
-      list-style-type: none;
-      padding: 0;
-      margin: 0;
-    }
-
-    nav ul li {
-      display: inline-block;
-      margin-right: 10px;
-    }
-
-    nav ul li a {
-      color: #fff;
-      text-decoration: none;
-    }
-
-    section {
-      padding: 40px;
-    }
-
-    h2 {
-      margin-top: 0;
-    }
-
-    .project {
-      margin-bottom: 20px;
-    }
-
-    .project img {
-      max-width: 100%;
-      height: auto;
-    }
-
-    footer {
-      background-color: #333;
-      color: #fff;
-      padding: 20px;
-      text-align: center;
-    }
-  </style>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-sacle=1.0">
+  <title>Personal Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
+
 <body>
-  <header>
-    <h1>Your Name</h1>
-    <nav>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
+  <header class="header">
+    <a href="#" class="logo">Kobe</a>
+
+    <nav class="navbar">
+      <a href="#" class="active">Home</a>
+      <a href="#">About</a>
+      <a href="#">Experience</a>
+      <a href="#">Projects</a>
+      <a href="#">Contact</a>
     </nav>
   </header>
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>Add some information about yourself here.</p>
-  </section>
-
-  <section id="portfolio">
-    <h2>Portfolio</h2>
-    <div class="project">
-      <img src="path_to_image" alt="Project 1">
-      <h3>Project 1</h3>
-      <p>Description of Project 1</p>
+  <section class="home">
+    <div class="home-content">
+      <h1>H1, I am Kobe Shi</h1>
+      <h3>Software Engineer</h3>
+      <p>I am a recent Computer Science graduate from the University of Michigan, 
+        actively seeking job opportunities in software development. I possess a 
+        strong academic background, practical experience, and a passion for 
+        leveraging technology to drive innovation.</p>
+      <div class="btn-box">
+        <a href="#">Hire Me</a>
+        <a href="#">Let's Talk</a>
+      </div>
     </div>
-    <!-- Add more project divs as needed -->
+
+    <div class="home-sci">
+      <a href="#"><i class='bx bxl-linkedin'></i></a>
+      <a href="#"><i class='bx bxl-discord'></i></a>
+      <a href="#"><i class='bx bxl-github'></i></a>
+    </div>
+
   </section>
 
-  <section id="contact">
-    <h2>Contact Me</h2>
-    <p>You can reach me at your@email.com</p>
-  </section>
 
-  <footer>
-    <p>&copy; 2023 Your Name</p>
-  </footer>
+
 </body>
+
 </html>
